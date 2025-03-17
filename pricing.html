@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sehgal Driving School</title>
+    <link href="./public/styles/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link href="./public/images/Sehgal Logo.png" rel="icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Header section   -->
+    <div id="header" class="gradient-background">
+        <img src="./public/images/Sehgal Logo.png" alt="Seghal Driving School" />
+
+        <ul class="categories">
+            <li>
+                <a href="index.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+                    </svg>
+                Home
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                    </svg>
+                About
+                </a>
+            </li>
+
+            <li>
+                <a href="pricing.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
+                        <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0"/>
+                        <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1m0 5.586 7 7L13.586 9l-7-7H2z"/>
+                    </svg>
+                Pricing
+                </a>
+            </li>
+
+            <li>
+                <a id="book" href="booking.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
+                        <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                    </svg>
+                Booking
+                </a>
+            </li>
+
+            <li>
+                <a id="contact" href="contact.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                        <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
+                      </svg> Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="prices-title">
+        <h1>Pricing Packages</h1>
+        <h4><em>Please note: Payment must be made prior to lessons!</em></h4>
+    </div>
+
+    <div class="car-type">
+        <div class="btn-group" role="group" aria-label="Default button group">
+            <button type="button" class="btn btn-outline-primary" id="auto">Automatic</button>
+            <button type="button" class="btn btn-outline-primary" id="manual">Manual</button>
+        </div>
+    </div>
+
+    <div class="prices-auto" hidden="">
+        <h2><u>Single Lessons</u></h2>
+        <h2><u>Multiple Lessons</u></h2>
+        <h2><u>Special Packages</u></h2>
+
+        <div class="single-lessons">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body forty-five">
+                    <h5 class="card-title">$55</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">45-minute class</h6>
+                    <p class="card-text">Perfect for those looking to fit in a quick, specialised driving lesson during their day.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                <h5 class="card-title">$65</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">60-minute class</h6>
+                <p class="card-text">A full hour of driving focusing on specific skills, whether you're starting from scratch or brushing up on your techniques.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                <h5 class="card-title">$75</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">60-minute <strong>night</strong> class</h6>
+                <p class="card-text">A full hour of driving focusing on techniques to enhance safety and build confidence after dark.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                <h5 class="card-title">$95</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">90-minute class</h6>
+                <p class="card-text">Extended practice for accelerated progress in a controlled, relaxed environment. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="multiple-lessons">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">$295</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">5 x 60-minute classes</h6>
+                    <p class="card-text">Five, focused 60-minute lessons to build confidence on the road and prepare for the VicRoads probationary license exams.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">$455</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">5 x 90-minute classes</h6>
+                    <p class="card-text">Five, focused 90-minute lessons to accelerate learning, refine techniques and build confidence.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">$575</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">10 x 60-minute classes</h6>
+                    <p class="card-text">Ten, focused 60-minute lessons to solidify and refine techniques in a controlled, relaxed environment.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">$905</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">10 x 90-minute classes</h6>
+                    <p class="card-text">Ten, focused 90-minute lessons to further refine techniques and build more confidence.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="special-packages">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">$220</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Driving Test Package</h6>
+                    <p class="card-text">A comprehensive 60-minute lesson immediately before your probationary license test, with an instructor accompanying you during the test.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">$2400</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Unlimited Lessons - 6 months</h6>
+                    <p class="card-text">Unlimited lessons over a <strong>six-month period</strong> to solidify learning, fine-tune techniques and build confidence on the road.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="prices-manual" hidden="">
+        <h2><u>Single Lessons</u></h2>
+        <h2><u>Special Packages</u></h2>
+
+        <div class="single-lessons-manual">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">$75</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">60-minute class</h6>
+                    <p class="card-text">A full hour of driving focusing on specific skills, whether you're starting from scratch or brushing up on your techniques.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                <h5 class="card-title">$80</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">60-minute <strong>night</strong> class</h6>
+                <p class="card-text">A full hour of driving focusing on techniques to enhance safety and build confidence after dark.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="special-packages">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">$240</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Driving Test Package</h6>
+                    <p class="card-text">A comprehensive 60-minute lesson immediately before your probationary license test, with an instructor accompanying you during the test.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="index.js" charset="UTF-8"></script>
+    </body>
+</html>
