@@ -262,6 +262,7 @@ iframe {
     .prices-auto {
         display: grid; 
         grid-template: 0.25fr 0.5fr / repeat(3, 1fr); 
+        margin-bottom: 0px; 
     }
     
     .prices-manual {
@@ -270,7 +271,7 @@ iframe {
     }
 
     .single-lessons, .multiple-lessons, .special-packages, .single-lessons-manual {
-        margin: 0px; 
+        margin-bottom: 0px; 
     }
 
     .prices-auto .card {
