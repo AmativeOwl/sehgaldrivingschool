@@ -1,4 +1,5 @@
 document.querySelectorAll('.categories .nav-link').forEach((button) => {
+  console.log(button);
   button.addEventListener('mouseover', function() {
     button.classList.add('onMouse'); 
   })
